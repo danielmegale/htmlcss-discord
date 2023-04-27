@@ -68,7 +68,6 @@ header{
 }
     /* main */
 section{
-    height: ;
     padding: 60px 0;
 }
 section > .container {
@@ -95,7 +94,7 @@ section > .container {
 }
 footer {
     color: white;
-    background-color: #23272A;
+    background-color:#23272A;
 }
 .footer-top{
     display: flex;
