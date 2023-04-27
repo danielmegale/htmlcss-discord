@@ -15,6 +15,10 @@
 .debug .border{
     border: 2px dashed black;
 }
+h2{
+ font-size: 60px;
+ margin-bottom: 10px;
+}
 /* header */
 header{
     background-color: #3161E0;
@@ -75,11 +79,10 @@ section > .container {
 }
 .flex > .small-col {
     flex-basis: 40%;
-    background-color: pink;
 }
 .flex > .large-col {
     flex-basis: 60%;
-    background-color: lightblue;
+    background-color: lighblue;
 }
 .flex > .full-col {
     flex-basis: 100%;
@@ -140,13 +143,30 @@ a.button {
 .mac-button{
     text-decoration: none;
     padding: 30px;
+    border-radius: 22px;
+    padding: 8px 20px;
+    margin: 13px;
+    
+}
+p{
+    margin-bottom: 10px
+}
+.icon{
+    padding: 0 10px;
+}
+.white{
     color: white;
     background-color: white;
     border-color: white;
-    border-radius: 17px;
-    padding: 4px 18px;
     color: black;
 }
-p{
-    margin-bottom: 10px;
+.black{
+    color: black;
+    background-color: black;
+    border-color: black;
+    color: white;
+}
+.small-col p{
+    line-height: 28px;
+    font-size: 20px;
 }
