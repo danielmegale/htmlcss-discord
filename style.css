@@ -18,6 +18,7 @@
 h2{
  font-size: 60px;
  margin-bottom: 10px;
+ padding-top: 25px;
 }
 /* header */
 header{
@@ -31,7 +32,6 @@ header{
 }
 .navbar > * {
     padding: 10px;
-    background-color:golenrod;
     flex-basis: 20%;
 }
 .navbar-menu{
@@ -65,7 +65,7 @@ header{
 }
     /* main */
 section{
-    height: 600px;
+    height: ;
     padding: 60px 0;
 }
 section > .container {
@@ -82,11 +82,12 @@ section > .container {
 }
 .flex > .large-col {
     flex-basis: 60%;
-    background-color: lighblue;
 }
 .flex > .full-col {
     flex-basis: 100%;
-    background-color: darkgreen;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 footer {
     color: white;
@@ -144,29 +145,49 @@ a.button {
     text-decoration: none;
     padding: 30px;
     border-radius: 22px;
-    padding: 8px 20px;
-    margin: 13px;
-    
+    padding: 12px 27px;
+    margin: 13px;   
 }
 p{
     margin-bottom: 10px
 }
 .icon{
-    padding: 0 10px;
+    padding-right: 20px;
 }
 .white{
-    color: white;
     background-color: white;
     border-color: white;
     color: black;
 }
 .black{
-    color: black;
     background-color: black;
     border-color: black;
     color: white;
 }
 .small-col p{
     line-height: 28px;
-    font-size: 20px;
+    font-size: 21px;
+}
+svg{
+    display: block;
+    color:lightslategray;
+}
+.up-side-down{
+    rotate: 0.5turn;
+}
+h3{
+    background-image: url(img/stars.svg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    padding: 24px 40px 0;
+    font-size: 24px;
+}
+.download{
+    background-color:#3161E0;
+    border-color:3161E0;
+    color: white;
+}
+.blue{
+    color: #3161E0;
+    font-size: 16px;
 }
